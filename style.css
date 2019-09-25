@@ -1,0 +1,125 @@
+body {
+  background-color: linen;
+}
+
+h2, {
+  color: maroon;
+  margin-left: 40px;
+}
+
+img {
+	width: 500px;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input, label {
+    margin: 0rem 0;
+    width: 12em;
+    padding: 1em;
+}
+
+.preference {
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+.hoi {
+    display: table-cell;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+#exciting {
+    background: linear-gradient(to bottom, #ffe8d4, #f69d3c);
+    border: 1px solid #696969;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px black;
+}
+
+#exciting:before {
+    content: "ℹ️";
+    margin-right: 5px;
+}
+
+label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.voetbal {
+    display: flex;
+    justify-content: space-between;
+    width: 3%;
+}
+
+.dagen {
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+}
+
+label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.rand:focus {
+  border: solid green;
+}
+
+.rand {
+  border: solid red;
+}
+
